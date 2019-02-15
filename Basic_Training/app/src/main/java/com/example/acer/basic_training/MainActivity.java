@@ -21,8 +21,13 @@ public class MainActivity extends AppCompatActivity {
         btnGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
 
 
+=======
+                
+//This is comment from pearl
+>>>>>>> master
                 tvResult.setText(GenerateNumbers(10));
             }
         });

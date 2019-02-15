@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         btnGo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                
 
                 tvResult.setText(GenerateNumbers(10));
             }
